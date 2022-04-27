@@ -1,16 +1,14 @@
-import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import Section from './components/Section'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Section name="Magaret" />
+        <Section />
         <p>
           <a
             className="App-link"
