@@ -20,7 +20,8 @@ const List = () => {
 
     // const res = await axios.get(import.meta.env.VITE_API_SERVER + '/people');
     // console.log(res.data._embedded.people);
-      
+    // 함수 선언시 await 사용해야 함
+          
   }, [a]);
 
   const listItems = data.map((item, index) => (
