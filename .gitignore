@@ -24,3 +24,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+react-vite-realworld-example-app/
